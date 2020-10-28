@@ -3,7 +3,6 @@ This is the repository for the static website homework for week 1 of program.  Y
 
 The site should look like the image below, but depending on the size of your browser window or device, sizes may vary. 
 ![Screenshot](week-1-hw)/Screen Shot.png)
-Format: ![Screenshot]
 
 index.html contains the text that will be displayed on the static web page. 
 
