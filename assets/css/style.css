@@ -1,0 +1,203 @@
+/*tells the browser that in box on the web page needs to account for any border or padding values specified*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/*defines background color of the body on the web page*/
+body {
+    background-color: #d9dcd6;
+}
+/*defines the padding, font, background of the header and the color of the font within the header*/
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+/*defines how "Horiseon" will look in the header of the web page*/
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+/*same as previous one, but "seo" in the name were different colors than the rest of the letters*/
+.header h1 .seo {
+    color: #d9dcd6;
+}
+/*defines the space around the header and div elements on the page and how elemtns are aligned by floating them to the right, and stay on that side, this helps with resizing the web page*/
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+/*for any list, there are no bullets or numbers in this web page*/
+.header div ul {
+    list-style-type: none;
+}
+/*alines the sections specified in a row, this is seen at the top of the web page with the buttons to take you to sections on the web page*/
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+/*defines font color*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/*defines font color*/
+p {
+    font-size: 16px;
+}
+/*defines the size of the image used in the banner beneath the header and above the content*/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/*sections that need to float left on this wbesite have this id, and it specifies a margin needed to it isn't too close to other content*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/*sections that need to float right on this wbesite have this id, and it specifies a margin needed to it isn't too close to other content*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/*places each div within the div with this id into blocks that take up 75% of the page width and provides a margin on the left*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/* places the smaller symbols and text on the right into organized sections*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/*define the margin it has from the bottom to create spacing from the next element and defines a font color.*/
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/*define the margin it has from the bottom to create spacing from the next element and defines a font color.*/
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/*define the margin it has from the bottom to create spacing from the next element and defines a font color.*/
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/*define the margin it has from the bottom to create spacing from the next element and defines a font color.*/
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/*define the margin it has from the bottom to create spacing from the next element and defines a font color.*/
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/*define the margin it has from the bottom to create spacing from the next element and defines a font color.*/
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/*define the margin it has from the bottom to create spacing from the next element and defines a font color.*/
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/*define the margin it has from the bottom to create spacing from the next element and defines a font color.*/
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/*define the margin it has from the bottom to create spacing from the next element and defines a font color.*/
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/*defines the size of the box, fonts used, background color, and the color of the font used for the tags within the div with this id*/
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+
+}
+/*defines the size of the box, fonts used, background color, and the color of the font used for the tags within the div with this id*/
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/*defines the size of the box, fonts used, background color, and the color of the font used for the tags within the div with this id*/
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/*defines the size of the image*/
+.search-engine-optimization img {
+    max-height: 200px;
+}
+/*defines the size of the image*/
+.online-reputation-management img {
+    max-height: 200px;
+}
+/*defines the size of the image*/
+.social-media-marketing img {
+    max-height: 200px;
+}
+/*defines the distance frmo the bottom and the size fo the text for this header in the content of the page*/
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/*defines the distance frmo the bottom and the size fo the text for this header in the content of the page*/
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/*defines the distance frmo the bottom and the size fo the text for this header in the content of the page*/
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/*defines the size of the footer, and it specifies that not elements can float on the right and left sides of the footer.  */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+/*defines the size of the header text in the foot*/
+.footer h2 {
+    font-size: 20px;
+}
+
